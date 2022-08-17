@@ -14,8 +14,10 @@ I saw a post on stack overflow showing a big brain way of solving this.
 
 Basically, the idea is that all the "win positions" add up to 12.
 
+```
  5 | 0 | 7
 ---+---+---
  6 | 4 | 2
 ---+---+---
  1 | 8 | 3
+```
