@@ -63,7 +63,15 @@ public class tictactoe {
                 String out = "";
                 System.out.println("Board:");
                 for (int i = 0; i < 9; i+=1) {
-                    out = out + Integer.toString(Board[i]) + " ";
+                    // out = out + Integer.toString(Board[i]) + " ";
+                    if (Board[i] == 0) {
+                        out = out + " ";
+                    } else if (Board[i] == 1) {
+                        out = out + "O";
+                    } else if (Board[i] == 2) {
+                        out = out + "X";
+                    }
+                    out = out + " ";
                     if ((i % 3) == 2) { // trial and error
                         out = out + "\n";
                     }
